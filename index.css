@@ -1,0 +1,180 @@
+* {
+    text-decoration: none;
+}
+
+
+
+header {
+    width: 90%;
+    /* border: solid 2px black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav {
+    /* border: solid 2px red; */
+    width: 100%;
+    height: 6rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.first-nav-a {
+    background-color: #FF764E;
+    color: white;
+    margin: 5px 50px 5px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.first-nav-a:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+
+.second-nav-a {
+    background-color: #5ED3EB;
+    color: white;
+    margin: 5px 50px 5px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.third-nav-a {
+    background-color: #FFCD69;
+    color: white;
+    margin: 5px 50px 5px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.header-content {
+    /* border: solid 2px yellow; */
+}
+
+.header-photo {
+    /* border: solid 2px indigo; */
+    float: left;
+    clear: right;
+}
+
+#header-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 40px;
+    object-fit: cover;
+    object-position: 0 60%;
+}
+
+.header-text {
+    /* border: solid 2px pink; */
+    text-align: center;
+    margin: 2.5rem;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Chelsea Market', system-ui;
+}
+
+.header-text p {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 2.5;
+}
+
+.info-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    /* border: solid 2px grey; */
+    background-color: #DDB9A3;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+}
+
+.info-container p {
+    text-align: center;
+    margin: 1.5rem;
+    line-height: 1.5;
+}
+
+.balloon {
+    text-align: center;
+    margin: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.balloon img {
+    width: 8rem;
+}
+
+.atv {
+    text-align: center;
+    margin: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.atv img {
+    width: 8rem;
+}
+
+.img-box {
+    width: 100%;
+    height: 15rem;
+    /* border: solid 2px chartreuse; */
+    overflow: hidden;
+}
+
+footer nav {
+    /* border: solid 2px red; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 6rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F9E7DC;
+}
+
+.footer-nav-a1 {
+    background-color: #FF764E;
+    color: white;
+    margin: 1rem 50px 5px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.footer-nav-a2 {
+    background-color: #5ED3EB;
+    color: white;
+    margin: 1rem 50px 5px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.footer-nav-a3 {
+    background-color: #FFCD69;
+    color: white;
+    margin: 1rem 50px 5px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
